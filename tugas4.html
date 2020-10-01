@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Form Pengunjung Serviceskuy</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+   <div class="container ">
+      <div class="content">
+          <div class="col-lg-11 bg-info">
+              <div class="text-center">
+                 <h1>Form Pengunjung Serviceskuy</h1>
+             </div>
+         <hr>
+         <form class=" form-horizontal " action=" ">
+            <div class="form-group ">
+               <label class="control-label col-sm-3 ">NAMA:</label>
+               <div class="col-sm-9 ">
+                   <input type="text" class="form-control " required placeholder="Masukkan Nama " name="nama">
+               </div>
+            </div>
+               <div class="form-group ">
+                  <label class="control-label col-sm-3 ">No.telepon:</label>
+                  <div class="col-sm-9 ">
+                      <input type="telp" class="form-control " required placeholder="Masukkan telp " name="telp">
+                  </div>
+                </div>
+                <div class="form-group ">
+                  <label class="control-label col-sm-3 ">Email:</label>
+                  <div class="col-sm-9 ">
+                      <input type="email" class="form-control " required placeholder="Masukkan email " name="email">
+                  </div>
+                </div>
+                <div class="form-group ">
+                    <label class="control-label col-sm-3 ">Kelengkapan:</label>
+                    <div class="col-sm-9 ">
+                        <input type="Kelengkapan" class="form-control " required placeholder="Masukkan kelengkapannya " name="email">
+                    </div>
+                  </div>
+                <div class="form-group ">
+                    <label class="control-label col-sm-3 ">Service:</label>
+                    <div class="col-sm-9 ">
+                        <select name="status_pekerjaan" class="form-control sp">
+                            <option value=" ">Permasalahan </option>
+                            <option value="Singaraja">Service Laptop</option>
+                            <option value="Pancasari">Service Pc</option>
+                            <option value="Kubutambahan">Upgrade Laptop</option>
+                            <option value="Karangasem">Upgrade Pc</option>
+                            <option value="Tabanan">Editing (Foto,Video,Dll)</option>
+                            <option value="Seririt">Recording</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <label class="control-label col-sm-3 ">Paket Skuy</label>
+                    <div class="col-sm-9 ">
+                        <select name="status_pekerjaan" class="form-control sp">
+                            <option value=" ">Paket Skuy </option>
+                            <option value="Singaraja">Rp 50.000 ( Instal Windows )</option>
+                            <option value="Pancasari">Rp 75.000 ( Instal Windows + Licensi )</option>
+                            <option value="Kubutambahan">Rp 100.000 ( Instal Windows Licensi + Software All Free)  </option>
+                            <option value="Karangasem">Upgrade Pc ( Menyesuaikan)</option>
+                            <option value="Tabanan">Editing (Foto,Video,Dll) Start From 100K</option>
+                            <option value="Seririt">Recording Start From 100k</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <div class="col-sm-offset-3 col-sm-9 text-right" style="font-size:20px;">
+                     <button type="Skuy " class="btn btn-default ">Skuy</button>
+                   </div>
+               </div>
+            </form>
+
+                </div>
+                 <div class="col-lg-11 " style="background-color :rgb(0, 0, 0); ">
+                 </div>
+               </div>
+             </div>
+                 <div id="myModal " class="modal fade " role="dialog ">
+                 <div class="modal-dialog ">
+             <!-- Modal content-->
+                <div class="modal-content ">
+                    <div class="modal-header ">
+                        <button type="button " class="close " data-dismiss="modal ">&times;</button>
+                         <h4 class="modal-title ">SUKSESKUY</h4>
+                    </div>
+                        <div class="modal-body ">
+                        <p></p>
+                    </div>
+                    <div class="modal-footer ">
+                    <button type="button " class="btn btn-default " data-dismiss="modal ">Close</button>
+                </div>
+            </div>
+        </div>
+     </div>
+</body>
+<script>
